@@ -1,27 +1,49 @@
 # Chrome Extension for finance AI Agent by Manojkke
 
-That sounds like an exciting development! Integrating an AI Agent for finance could significantly enhance the investment decision-making process. By processing vast amounts of financial data and offering tailored insights, this could make finding better investment opportunities more efficient. If you need any assistance in refining or expanding this AI Agent, feel free to ask! I'd be happy to help you with any technical or strategic advice.
+That sounds like an exciting development! Integrating an AI Agent for finance could significantly enhance the investment decision-making process. 
 
-Feel free to contribute. 
+By processing vast amounts of financial data and offering tailored insights, this could make finding better investment opportunities more efficient. 
 
-Please contact if willing to contribute : [text](https://www.linkedin.com/in/manoj-kumar-kandasamy-05659a46/)
+If you need any assistance in refining or expanding this AI Agent, feel free to ask! I'd be happy to help you with any technical or strategic advice.
 
+[LinkedIn : ](https://www.linkedin.com/in/manoj-kumar-kandasamy-05659a46/)
+
+
+## ✨ Features we are planning to build 
+
+  - 💬 Personalized Investment Recommendations
+Tailored suggestions based on user preferences, risk tolerance, and financial goals.
+
+ - 🌄 Real-Time Market Analysis
+Integration with real-time financial data to provide up-to-date market trends, news, and stock performance.
+
+ - 🎛️ Risk Assessment Tools
+Use AI to assess risk levels for various investments and create balanced portfolios.
+
+  - 💾 Predictive Analytics
+Forecast potential investment returns based on historical data and market patterns.
+
+ - 🛟  Investment Tracking
+Monitor portfolio performance, track gains/losses, and provide actionable insights for adjustments.
  
+ - 🌄  Smart Portfolio Rebalancing
+Automatically adjust portfolios based on market conditions or when user-defined criteria are met.
+
+ - 💬Financial Goal Planning
+Set and track goals (e.g., retirement, buying a home) with AI-driven projections on how to reach them.
+
+ - ✨ Automated Reporting
+Generate detailed, understandable reports on portfolio performance, risk, and recommendations.
+
 
 ## 📸 Screenshots
 <div style="display: flex; gap: 20px; justify-content: start; align-items: start;">
     <img src='assets/preview-1.png' width='400' alt='Chat Completion Preview' />
-    <img src='assets/preview-2.png' width='400' alt='Image Generation Preview' />
 </div>
 
-## ✨ Features
 
- - 💬 Chat with the latest GPT models.
- - 🌄 Generate stunning images with DALL-E 3.
- - 🎛️ Seamlessly switch between different models.
- - 💾 Copy or download the generated content with just a click.
- - 🛟 API-Key is safely stored in the browser's local storage and never leaves your device.
 
+ 
 ## 🚀 Getting started
     
 1. Clone the extension or download the latest release.
