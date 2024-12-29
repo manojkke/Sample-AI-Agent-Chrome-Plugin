@@ -9,6 +9,15 @@ If you need any assistance in refining or expanding this AI Agent, feel free to 
 [LinkedIn -> ](https://www.linkedin.com/in/manoj-kumar-kandasamy-05659a46/)
 
 
+## 📸 Screenshots
+<div style="display: flex; gap: 20px; justify-content: start; align-items: start;">
+    <img src='assets/preview-1.png' width='400' alt='Chat Completion Preview' />
+</div>
+<div style="display: flex; gap: 20px; justify-content: start; align-items: start;">
+    <img src='assets/preview-2.png' width='400' alt='Chat Completion Preview' />
+</div>
+
+
 ## ✨ Features we are planning to build 
 
 - 🧑‍💻 **Personalized Investment Recommendations**  
@@ -61,12 +70,6 @@ If you need any assistance in refining or expanding this AI Agent, feel free to 
 
 - 🧠 **Behavioral Analysis**  
   Analyze user behavior to make smarter, more accurate predictions on future investment moves.
-
-
-## 📸 Screenshots
-<div style="display: flex; gap: 20px; justify-content: start; align-items: start;">
-    <img src='assets/preview-1.png' width='400' alt='Chat Completion Preview' />
-</div>
 
 
 
