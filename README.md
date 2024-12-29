@@ -6,34 +6,61 @@ By processing vast amounts of financial data and offering tailored insights, thi
 
 If you need any assistance in refining or expanding this AI Agent, feel free to ask! I'd be happy to help you with any technical or strategic advice.
 
-[LinkedIn : ](https://www.linkedin.com/in/manoj-kumar-kandasamy-05659a46/)
+[LinkedIn -> ](https://www.linkedin.com/in/manoj-kumar-kandasamy-05659a46/)
 
 
 ## ✨ Features we are planning to build 
 
-  - 💬 Personalized Investment Recommendations
-Tailored suggestions based on user preferences, risk tolerance, and financial goals.
+- 🧑‍💻 **Personalized Investment Recommendations**  
+  Tailored suggestions based on user preferences, risk tolerance, and financial goals.
 
- - 🌄 Real-Time Market Analysis
-Integration with real-time financial data to provide up-to-date market trends, news, and stock performance.
+- 📊 **Real-Time Market Analysis**  
+  Integration with real-time financial data to provide up-to-date market trends, news, and stock performance.
 
- - 🎛️ Risk Assessment Tools
-Use AI to assess risk levels for various investments and create balanced portfolios.
+- ⚖️ **Risk Assessment Tools**  
+  Use AI to assess risk levels for various investments and create balanced portfolios.
 
-  - 💾 Predictive Analytics
-Forecast potential investment returns based on historical data and market patterns.
+- 🔮 **Predictive Analytics**  
+  Forecast potential investment returns based on historical data and market patterns.
 
- - 🛟  Investment Tracking
-Monitor portfolio performance, track gains/losses, and provide actionable insights for adjustments.
- 
- - 🌄  Smart Portfolio Rebalancing
-Automatically adjust portfolios based on market conditions or when user-defined criteria are met.
+- 📈 **Investment Tracking**  
+  Monitor portfolio performance, track gains/losses, and provide actionable insights for adjustments.
 
- - 💬Financial Goal Planning
-Set and track goals (e.g., retirement, buying a home) with AI-driven projections on how to reach them.
+- 💸 **Tax Optimization**  
+  Suggestions for tax-efficient investment strategies to maximize after-tax returns.
 
- - ✨ Automated Reporting
-Generate detailed, understandable reports on portfolio performance, risk, and recommendations.
+- 🔄 **Smart Portfolio Rebalancing**  
+  Automatically adjust portfolios based on market conditions or when user-defined criteria are met.
+
+- 🎯 **Financial Goal Planning**  
+  Set and track goals (e.g., retirement, buying a home) with AI-driven projections on how to reach them.
+
+- 📑 **Automated Reporting**  
+  Generate detailed, understandable reports on portfolio performance, risk, and recommendations.
+
+- 🗣️ **Social Sentiment Analysis**  
+  Analyze social media, news, and other sources for trends or shifts in market sentiment.
+
+- 📚 **Investment Education**  
+  Offer learning resources on investment strategies, financial planning, and market trends.
+
+- 📲 **AI-Driven Alerts**  
+  Send notifications on market changes, stock fluctuations, or important financial news impacting investments.
+
+- 🌍 **Sustainable Investment Filters**  
+  Suggest investments that align with the user’s ethical or environmental preferences.
+
+- 📊 **Customizable Dashboards**  
+  Allow users to set up dashboards displaying the metrics most relevant to their financial needs.
+
+- 🤝 **Collaborative Features**  
+  Share portfolios, strategies, or insights with financial advisors or friends for collective decision-making.
+
+- ⏳ **Historical Data Analysis**  
+  Provide in-depth analysis of historical market data to aid decision-making for future investments.
+
+- 🧠 **Behavioral Analysis**  
+  Analyze user behavior to make smarter, more accurate predictions on future investment moves.
 
 
 ## 📸 Screenshots
