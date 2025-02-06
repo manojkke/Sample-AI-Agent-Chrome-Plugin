@@ -27,19 +27,18 @@ chrome.runtime.onMessage.addListener(async function (
   sender,
   sendResponse
 ) {
-  debugger;
-
   if (message.action === "accessDOM") {
     const [tab] = await chrome.tabs.query({
       active: true,
       currentWindow: true,
     });
 
+    console.log("Accessing DOM of tab:", tab.id);
     // Inject the content script into the current tab
     chrome.scripting.executeScript(
       {
         target: { tabId: tab.id },
-        files: ["content.js"],
+        files: ["dist/bundle.js"],
       },
       () => {
         console.log("Content script injected.");
@@ -118,81 +117,6 @@ chrome.runtime.onMessage.addListener(async function (
 
   return true; // Enable response callback
 });
-
-// Fetch data from the OpenAI Chat Completion API
-async function fetchChatCompletion(messages, apiKey, apiModel) {
-  try {
-    const response = await fetch("https://api.openai.com/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify({
-        messages: messages,
-        model: apiModel,
-      }),
-    });
-
-    if (!response.ok) {
-      if (response.status === 401) {
-        // Unauthorized - Incorrect API key
-        throw new Error(
-          "Looks like your API key is incorrect. Please check your API key and try again."
-        );
-      } else {
-        throw new Error(`Failed to fetch. Status code: ${response.status}`);
-      }
-    }
-
-    return await response.json();
-  } catch (error) {
-    // Send a response to the popup script
-    chrome.runtime.sendMessage({ error: error.message });
-
-    console.error(error);
-  }
-}
-
-// Fetch Image from the OpenAI DALL-E API
-async function fetchImage(prompt, apiKey, apiModel) {
-  try {
-    const response = await fetch(
-      "https://api.openai.com/v1/images/generations",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${apiKey}`,
-        },
-        body: JSON.stringify({
-          prompt: prompt,
-          model: apiModel,
-          n: 1,
-          size: "1024x1024",
-        }),
-      }
-    );
-
-    if (!response.ok) {
-      if (response.status === 401) {
-        // Unauthorized - Incorrect API key
-        throw new Error(
-          "Looks like your API key is incorrect. Please check your API key and try again."
-        );
-      } else {
-        throw new Error(`Failed to fetch. Status code: ${response.status}`);
-      }
-    }
-
-    return await response.json();
-  } catch (error) {
-    // Send a response to the popup script
-    chrome.runtime.sendMessage({ error: error.message });
-
-    console.error(error);
-  }
-}
 
 // Get data from local storage
 function getStorageData(keys) {
